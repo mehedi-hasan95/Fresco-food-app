@@ -14,6 +14,14 @@ module.exports = {
             },
             colors: {
                 "orange-theme": "#FF770F",
+                "red-theme": "#F02B2F",
+                bg1: "#FEE8DE",
+                bg2: "#FDE7DD",
+                bg3: "#FFF2EE",
+            },
+            fontFamily: {
+                berkshire_swash: ["var(--font-berkshire-swash)"],
+                tilt_prism: ["var(--font-tilt-prism)"],
             },
         },
     },

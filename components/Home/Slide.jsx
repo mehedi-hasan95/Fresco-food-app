@@ -6,15 +6,15 @@ import { useEffect, useState } from "react";
 const data = [
     {
         id: 1,
-        img: "/pizza1.jpg",
+        img: "/pizza1113.jpg",
     },
     {
         id: 2,
-        img: "/pizza2.jpg",
+        img: "/pizza2223.jpg",
     },
     {
         id: 3,
-        img: "/pizza3.jpg",
+        img: "/pizza3333.jpg",
     },
 ];
 

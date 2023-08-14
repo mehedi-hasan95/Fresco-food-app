@@ -1,6 +1,4 @@
-import { Berkshire_Swash } from "next/font/google";
 import Image from "next/image";
-const swash = Berkshire_Swash({ subsets: ["latin"], weight: "400" });
 const Hero = () => {
     return (
         <div className="bg-[url('/hero.jpg')] bg-fixed relative h-[80vh] z-10">
@@ -17,12 +15,7 @@ const Hero = () => {
                         alt="spoon"
                         className="order-first pb-10"
                     />
-                    <h2
-                        className={
-                            (swash.className,
-                            "text-white text-3xl md:text-5xl lg:text-8xl")
-                        }
-                    >
+                    <h2 className="text-white text-3xl md:text-5xl lg:text-8xl font-berkshire_swash">
                         Fresco.
                     </h2>
                     <h4 className="text-orange-theme text-xl py-7">
